@@ -48,7 +48,8 @@ var tonk0006_giftr = {
         document.querySelector('header').addEventListener('click', tonk0006_giftr.displayPeoplePage);
                 
         var list = document.querySelectorAll('[data-role="listview"]');
-        var hm = new Hammer.Manager(list);
+        var hm1 = new Hammer.Manager(list[0]);
+        var hm2 = new Hammer.Manager(list[1]);
 
         var singleTap = new Hammer.Tap({
             event: 'singletap'
@@ -61,12 +62,13 @@ var tonk0006_giftr = {
             posThreshold: 40
         });
         
-        hm.add([singleTap, doubleTap]);
+        hm1.add([singleTap, doubleTap]);
         doubleTap.requireFailure(singleTap);
         
-        hm[0].on('singletap', tonk0006_giftr.displayGiftsForPeoplePage);
-        hm[1].on('singletap', tonk0006_giftr.displayGiftsForOccasionsPage);
-        hm.on('doubletap', tonk0006_giftr.deleteListItem);
+        hm1.on('singletap', tonk0006_giftr.displayGiftsForPeoplePage);
+        hm2.on('singletap', tonk0006_giftr.displayGiftsForOccasionsPage);
+        hm1.on('doubletap', tonk0006_giftr.deleteListItem);
+        hm2.on('doubletap', tonk0006_giftr.deleteListItem);
 //
 //        var swipeLeft = new Hammer.Tap({
 //            event: 'swipeleft'
@@ -189,7 +191,8 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-per').value;
         li.innerHTML = text;
-        ul[0].appendChild(li);
+        if (text)
+            ul[0].appendChild(li);
         document.querySelector('[data-role=modal]#add-person').style.display = 'none';
         document.querySelector('[data-role=modal]#add-occasion').style.display = 'none';
         document.querySelector('[data-role=overlay]').style.display = 'none';
@@ -200,7 +203,8 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-occ').value;
         li.innerHTML = text;
-        ul[1].appendChild(li);
+        if(text)
+            ul[1].appendChild(li);
         document.querySelector('[data-role=modal]#add-person').style.display = 'none';
         document.querySelector('[data-role=modal]#add-occasion').style.display = 'none';
         document.querySelector('[data-role=overlay]').style.display = 'none';

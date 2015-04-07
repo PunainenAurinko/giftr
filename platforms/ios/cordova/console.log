@@ -2455,3 +2455,23 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-07 00:20:53.275 Giftr[40407:2269884] [CDVTimer][TotalPluginStartup] 49.681962ms
 2015-04-07 00:20:53.347 Giftr[40407:2269884] Resetting plugins due to page load.
 2015-04-07 00:20:53.448 Giftr[40407:2269884] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/53B3B8F9-A643-4103-B109-6056570FF0DC/Giftr.app/www/index.html
+2015-04-07 00:39:12.203 Giftr[41105:2298237] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/6FAAE79B-593A-4FFE-9F39-C7F985E6A78D/Library/Cookies/Cookies.binarycookies
+2015-04-07 00:39:12.315 Giftr[41105:2298237] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 00:39:12.315 Giftr[41105:2298237] Multi-tasking -> Device: YES, App: YES
+2015-04-07 00:39:12.316 Giftr[41105:2298237] Unlimited access to network resources
+2015-04-07 00:39:12.319 Giftr[41105:2298237] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 00:39:12.562 Giftr[41105:2298237] [CDVTimer][splashscreen] 60.516000ms
+2015-04-07 00:39:12.562 Giftr[41105:2298237] [CDVTimer][TotalPluginStartup] 60.640991ms
+2015-04-07 00:39:12.721 Giftr[41105:2298237] Resetting plugins due to page load.
+2015-04-07 00:39:12.778 Giftr[41105:2298237] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F874FA45-A68E-40B2-990D-4547BE4F15F4/Giftr.app/www/index.html
+2015-04-07 00:39:14.878 Giftr[41105:2298237] Person modal window opened
+2015-04-07 00:39:17.521 Giftr[41105:2298237] Person modal window opened
+2015-04-07 00:39:20.165 Giftr[41105:2298237] Person modal window opened
+2015-04-07 00:39:24.550 Giftr[41105:2298237] Person modal window opened
