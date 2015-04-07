@@ -73,12 +73,12 @@ var tonk0006_giftr = {
             posThreshold: 40
         });
         
-        hm1.add([singleTap1, doubleTap1]);
-        hm2.add([singleTap2, doubleTap2]);
-        doubleTap1.recognizeWith(singleTap1);
-        doubleTap2.recognizeWith(singleTap2);
-        singleTap1.requireFailure(doubleTap1);
-        singleTap2.requireFailure(doubleTap2);
+        hm1.add([doubleTap1, singleTap1]);
+        hm2.add([doubleTap2, singleTap2]);
+//        doubleTap1.recognizeWith(singleTap1);
+//        doubleTap2.recognizeWith(singleTap2);
+        doubleTap1.requireFailure(singleTap1);
+        doubleTap2.requireFailure(singleTap2);
         
         hm1.on('singletap', tonk0006_giftr.displayGiftsForPeoplePage);
         hm2.on('singletap', tonk0006_giftr.displayGiftsForOccasionsPage);
@@ -203,7 +203,8 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-per').value;
         li.innerHTML = text;
-//        li.setAttribute('id', text);
+        li.setAttribute('data-ref', text);
+        li.setAttribute('id', text);
         if (text)
             ul[0].appendChild(li);
         document.querySelector('[data-role=modal]#add-person').style.display = 'none';
@@ -216,7 +217,8 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-occ').value;
         li.innerHTML = text;
-//        li.setAttribute('id', text);
+        li.setAttribute('data-ref', text);
+        li.setAttribute('id', text);
         if(text)
             ul[1].appendChild(li);
         document.querySelector('[data-role=modal]#add-person').style.display = 'none';
@@ -225,11 +227,10 @@ var tonk0006_giftr = {
     },
     
     deleteListItem: function (ev) {
-//        var item = ev.target.getAttribute("data-ref");
-//        var itemVal = ev.target.innerHTML;
-//        document.getElementById("list").value = item;
-//        
-//        document.querySelector("[data-role=modal] h3").innerHTML = "Editing " + itemVal;
+        console.log('Double-tap event occured');
+        var item = ev.target.innerHTML;
+        var li = document.getElementById(item);
+        li.parentNode.removeChild(li);
     }
 }
 

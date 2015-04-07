@@ -2712,3 +2712,187 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-07 10:09:39.053 Giftr[46585:2408049] CD
 2015-04-07 10:09:47.340 Giftr[46585:2408049] NY
 2015-04-07 10:09:47.340 Giftr[46585:2408049] NY
+2015-04-07 12:15:01.478 Giftr[46585:2408049] Nyuta
+2015-04-07 12:15:01.479 Giftr[46585:2408049] Nyuta
+2015-04-07 12:15:10.597 Giftr[46585:2408049] Nyuta
+2015-04-07 12:15:10.598 Giftr[46585:2408049] Nyuta
+2015-04-07 12:15:14.155 Giftr[46585:2408049] Person modal window opened
+2015-04-07 12:15:18.336 Giftr[46585:2408049] Vova
+2015-04-07 12:15:18.337 Giftr[46585:2408049] Vova
+2015-04-07 12:15:30.029 Giftr[46585:2408049] Vova
+2015-04-07 12:15:30.029 Giftr[46585:2408049] Vova
+2015-04-07 12:15:53.156 Giftr[46585:2408049] Vova
+2015-04-07 12:15:53.157 Giftr[46585:2408049] Vova
+2015-04-07 12:15:56.057 Giftr[46585:2408049] Nyuta
+2015-04-07 12:15:56.057 Giftr[46585:2408049] Nyuta
+2015-04-07 12:20:34.206 Giftr[46585:2408049] BD
+2015-04-07 12:20:34.207 Giftr[46585:2408049] BD
+2015-04-07 12:20:37.634 Giftr[46585:2408049] Gift for occasion modal window opened
+2015-04-07 12:20:49.473 Giftr[46585:2408049] +[_UIDictionaryManager _availableDefinitionDictionaries] returned nil. Error: Error Domain=ASError Code=21 "The operation couldn’t be completed. (ASError error 21 - Unable to copy asset information)" UserInfo=0x78693dc0 {NSDescription=Unable to copy asset information}
+2015-04-07 12:20:50.031 Giftr[46585:2408049] Unbalanced calls to begin/end appearance transitions for <_UIFallbackPresentationViewController: 0x79aa6df0>.
+2015-04-07 12:21:00.975 Giftr[46585:2408049] +[_UIDictionaryManager _availableDefinitionDictionaries] returned nil. Error: Error Domain=ASError Code=21 "The operation couldn’t be completed. (ASError error 21 - Unable to copy asset information)" UserInfo=0x787b2410 {NSDescription=Unable to copy asset information}
+2015-04-07 12:21:01.517 Giftr[46585:2408049] Unbalanced calls to begin/end appearance transitions for <_UIFallbackPresentationViewController: 0x79aa6df0>.
+2015-04-07 12:23:55.155 Giftr[46585:2408049] Vova
+2015-04-07 12:23:55.156 Giftr[46585:2408049] Vova
+2015-04-07 12:23:58.244 Giftr[46585:2408049] Gift for person modal window opened
+2015-04-07 12:24:18.564 Giftr[46585:2408049] Gift for person modal window opened
+2015-04-07 12:24:33.561 Giftr[46585:2408049] Gift for person modal window opened
+2015-04-07 12:30:55.732 Giftr[50184:2540950] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/56244D6E-17B9-4F34-AE70-068267095A5D/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:30:55.902 Giftr[50184:2540950] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:30:55.903 Giftr[50184:2540950] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:30:55.909 Giftr[50184:2540950] Unlimited access to network resources
+2015-04-07 12:30:55.916 Giftr[50184:2540950] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 12:30:56.391 Giftr[50184:2540950] [CDVTimer][splashscreen] 208.593965ms
+2015-04-07 12:30:56.391 Giftr[50184:2540950] [CDVTimer][TotalPluginStartup] 208.727002ms
+2015-04-07 12:30:56.508 Giftr[50184:2540950] Resetting plugins due to page load.
+2015-04-07 12:30:56.628 Giftr[50184:2540950] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/7F532C41-C274-44FC-94EB-CF07C8EBE440/Giftr.app/www/index.html
+2015-04-07 12:30:59.534 Giftr[50184:2540950] Person modal window opened
+2015-04-07 12:31:02.538 Giftr[50184:2540950] Person modal window opened
+2015-04-07 12:31:05.396 Giftr[50184:2540950] Person modal window opened
+2015-04-07 12:31:35.156 Giftr[50184:2540950] Occasion modal window opened
+2015-04-07 12:31:43.067 Giftr[50184:2540950] Occasion modal window opened
+2015-04-07 12:31:55.619 Giftr[50184:2540950] Occasion modal window opened
+2015-04-07 12:32:08.956 Giftr[50184:2540950] Karamelle
+2015-04-07 12:32:08.956 Giftr[50184:2540950] Karamelle
+2015-04-07 12:32:14.738 Giftr[50184:2540950] Birthday
+2015-04-07 12:32:14.739 Giftr[50184:2540950] Birthday
+2015-04-07 12:32:20.033 Giftr[50184:2540950] Birthday
+2015-04-07 12:32:20.033 Giftr[50184:2540950] Birthday
+2015-04-07 12:32:22.881 Giftr[50184:2540950] Vova
+2015-04-07 12:32:22.882 Giftr[50184:2540950] Vova
+2015-04-07 12:32:26.949 Giftr[50184:2540950] Vova
+2015-04-07 12:32:26.949 Giftr[50184:2540950] Vova
+2015-04-07 12:44:37.249 Giftr[50184:2540950] Karamelle
+2015-04-07 12:44:37.250 Giftr[50184:2540950] Karamelle
+2015-04-07 12:44:39.677 Giftr[50184:2540950] Gift for person modal window opened
+2015-04-07 12:44:57.834 Giftr[50678:2599823] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/95CA7A04-4D97-4B1E-88DE-16D8548AC47E/Library/Cookies/Cookies.binarycookies
+2015-04-07 12:44:57.910 Giftr[50678:2599823] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 12:44:57.911 Giftr[50678:2599823] Multi-tasking -> Device: YES, App: YES
+2015-04-07 12:44:57.912 Giftr[50678:2599823] Unlimited access to network resources
+2015-04-07 12:44:57.914 Giftr[50678:2599823] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 12:44:58.128 Giftr[50678:2599823] [CDVTimer][splashscreen] 49.609005ms
+2015-04-07 12:44:58.128 Giftr[50678:2599823] [CDVTimer][TotalPluginStartup] 49.730003ms
+2015-04-07 12:44:58.209 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:44:58.268 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:45:10.126 Giftr[50678:2599823] Person modal window opened
+2015-04-07 12:45:14.854 Giftr[50678:2599823] Person modal window opened
+2015-04-07 12:45:18.160 Giftr[50678:2599823] Person modal window opened
+2015-04-07 12:45:41.268 Giftr[50678:2599823] Vova
+2015-04-07 12:45:41.268 Giftr[50678:2599823] Vova
+2015-04-07 12:45:44.440 Giftr[50678:2599823] Nyuta
+2015-04-07 12:45:44.441 Giftr[50678:2599823] Nyuta
+2015-04-07 12:45:47.483 Giftr[50678:2599823] Karamelle
+2015-04-07 12:45:47.483 Giftr[50678:2599823] Karamelle
+2015-04-07 12:45:54.199 Giftr[50678:2599823] Double-tap event occured
+2015-04-07 12:45:54.200 Giftr[50678:2599823] Double-tap event occured
+2015-04-07 12:46:00.207 Giftr[50678:2599823] Double-tap event occured
+2015-04-07 12:46:00.207 Giftr[50678:2599823] Double-tap event occured
+2015-04-07 12:51:24.916 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:24.970 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:25.618 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:25.643 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:26.098 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:26.135 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:26.465 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:26.510 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:26.796 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:26.831 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:27.073 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:27.109 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:27.423 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:27.626 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:29.474 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:29.507 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:30.543 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:30.651 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:31.417 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:31.457 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 12:51:31.945 Giftr[50678:2599823] Resetting plugins due to page load.
+2015-04-07 12:51:31.981 Giftr[50678:2599823] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/F0F7A8CC-AE20-415E-A012-2F2C3D75F7EC/Giftr.app/www/index.html
+2015-04-07 13:28:08.394 Giftr[52086:2809447] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/1FC8758A-9C85-4033-B6FA-F612A09219BC/Library/Cookies/Cookies.binarycookies
+2015-04-07 13:28:08.475 Giftr[52086:2809447] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 13:28:08.476 Giftr[52086:2809447] Multi-tasking -> Device: YES, App: YES
+2015-04-07 13:28:08.477 Giftr[52086:2809447] Unlimited access to network resources
+2015-04-07 13:28:08.479 Giftr[52086:2809447] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 13:28:08.736 Giftr[52086:2809447] [CDVTimer][splashscreen] 99.884987ms
+2015-04-07 13:28:08.736 Giftr[52086:2809447] [CDVTimer][TotalPluginStartup] 100.043952ms
+2015-04-07 13:28:08.883 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:08.943 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:18.202 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:18.236 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:19.187 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:19.223 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:19.587 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:19.623 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:19.909 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:19.945 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:20.211 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:20.349 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:20.522 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:20.554 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:20.931 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:20.966 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:21.243 Giftr[52086:2809447] Resetting plugins due to page load.
+2015-04-07 13:28:21.537 Giftr[52086:2809447] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/86FCEDD6-DE00-4A9D-A723-433DE5986D53/Giftr.app/www/index.html
+2015-04-07 13:28:25.146 Giftr[52086:2809447] Person modal window opened
+2015-04-07 13:28:28.867 Giftr[52086:2809447] Person modal window opened
+2015-04-07 13:28:31.682 Giftr[52086:2809447] Person modal window opened
+2015-04-07 13:28:37.850 Giftr[52086:2809447] Double-tap event occured
+2015-04-07 13:28:37.850 Giftr[52086:2809447] Double-tap event occured
+2015-04-07 13:32:50.533 Giftr[52290:2839573] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/FCF6EBAF-CD87-4D92-899C-A52E7E34C62D/Library/Cookies/Cookies.binarycookies
+2015-04-07 13:32:50.620 Giftr[52290:2839573] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 13:32:50.620 Giftr[52290:2839573] Multi-tasking -> Device: YES, App: YES
+2015-04-07 13:32:50.621 Giftr[52290:2839573] Unlimited access to network resources
+2015-04-07 13:32:50.629 Giftr[52290:2839573] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 13:32:50.915 Giftr[52290:2839573] [CDVTimer][splashscreen] 125.308990ms
+2015-04-07 13:32:50.915 Giftr[52290:2839573] [CDVTimer][TotalPluginStartup] 125.449002ms
+2015-04-07 13:32:51.061 Giftr[52290:2839573] Resetting plugins due to page load.
+2015-04-07 13:32:51.117 Giftr[52290:2839573] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/42D9FA63-F164-4037-8C32-59D1544B457D/Giftr.app/www/index.html
+2015-04-07 13:32:58.594 Giftr[52290:2839573] Person modal window opened
+2015-04-07 13:33:01.426 Giftr[52290:2839573] Person modal window opened
+2015-04-07 13:33:04.499 Giftr[52290:2839573] Person modal window opened
+2015-04-07 13:33:16.398 Giftr[52290:2839573] Occasion modal window opened
+2015-04-07 13:33:22.128 Giftr[52290:2839573] Occasion modal window opened
+2015-04-07 13:33:28.573 Giftr[52290:2839573] Occasion modal window opened
+2015-04-07 13:33:33.591 Giftr[52290:2839573] Birthday
+2015-04-07 13:33:33.591 Giftr[52290:2839573] Birthday
+2015-04-07 13:33:52.561 Giftr[52290:2839573] Halloween
+2015-04-07 13:33:52.562 Giftr[52290:2839573] Halloween
+2015-04-07 13:34:04.247 Giftr[52290:2839573] Easter
+2015-04-07 13:34:04.247 Giftr[52290:2839573] Easter
+2015-04-07 13:34:12.843 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:12.843 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:19.271 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:19.271 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:23.242 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:23.243 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:24.183 Giftr[52290:2839573] Double-tap event occured
+2015-04-07 13:34:24.183 Giftr[52290:2839573] Double-tap event occured
