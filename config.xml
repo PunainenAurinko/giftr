@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ca.edumedia.tonk0006.giftrApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Giftr</name>
+    <description>
+        Giftr - Cordova Data App
+    </description>
+    <author email="tonk0006@algonquinlive.com" href="http://algonquin.com">
+        Vladimir Tonkonogov
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
