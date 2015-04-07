@@ -2475,3 +2475,32 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-07 00:39:17.521 Giftr[41105:2298237] Person modal window opened
 2015-04-07 00:39:20.165 Giftr[41105:2298237] Person modal window opened
 2015-04-07 00:39:24.550 Giftr[41105:2298237] Person modal window opened
+2015-04-07 00:50:03.427 Giftr[41105:2298237] Occasion modal window opened
+2015-04-07 00:50:05.301 Giftr[41105:2298237] Occasion modal window opened
+2015-04-07 00:50:13.593 Giftr[41105:2298237] Occasion modal window opened
+2015-04-07 00:50:20.842 Giftr[41105:2298237] Occasion modal window opened
+2015-04-07 00:51:17.282 Giftr[41590:2317654] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/D80D1153-1748-4B16-8D07-3A41278CEA04/Library/Cookies/Cookies.binarycookies
+2015-04-07 00:51:17.369 Giftr[41590:2317654] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 00:51:17.370 Giftr[41590:2317654] Multi-tasking -> Device: YES, App: YES
+2015-04-07 00:51:17.371 Giftr[41590:2317654] Unlimited access to network resources
+2015-04-07 00:51:17.375 Giftr[41590:2317654] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 00:51:17.637 Giftr[41590:2317654] [CDVTimer][splashscreen] 77.302992ms
+2015-04-07 00:51:17.638 Giftr[41590:2317654] [CDVTimer][TotalPluginStartup] 77.418983ms
+2015-04-07 00:51:17.728 Giftr[41590:2317654] Resetting plugins due to page load.
+2015-04-07 00:51:17.796 Giftr[41590:2317654] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/0155BF60-6A56-4284-B06F-63150CCE5E64/Giftr.app/www/index.html
+2015-04-07 00:51:21.027 Giftr[41590:2317654] Person modal window opened
+2015-04-07 00:51:23.403 Giftr[41590:2317654] Person modal window opened
+2015-04-07 00:51:26.162 Giftr[41590:2317654] Person modal window opened
+2015-04-07 00:51:32.339 Giftr[41590:2317654] Occasion modal window opened
+2015-04-07 00:51:36.043 Giftr[41590:2317654] Occasion modal window opened
+2015-04-07 00:51:39.553 Giftr[41590:2317654] Occasion modal window opened
+2015-04-07 00:52:40.291 Giftr[41590:2317654] Gift for occasion modal window opened
+2015-04-07 00:52:42.996 Giftr[41590:2317654] Gift for occasion modal window opened
+2015-04-07 00:52:46.130 Giftr[41590:2317654] Gift for occasion modal window opened

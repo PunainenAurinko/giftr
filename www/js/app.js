@@ -63,6 +63,7 @@ var tonk0006_giftr = {
         });
         
         hm1.add([singleTap, doubleTap]);
+        hm2.add([singleTap, doubleTap]);
         doubleTap.requireFailure(singleTap);
         
         hm1.on('singletap', tonk0006_giftr.displayGiftsForPeoplePage);
