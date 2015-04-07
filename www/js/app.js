@@ -75,8 +75,8 @@ var tonk0006_giftr = {
         
         hm1.add([doubleTap1, singleTap1]);
         hm2.add([doubleTap2, singleTap2]);
-//        doubleTap1.recognizeWith(singleTap1);
-//        doubleTap2.recognizeWith(singleTap2);
+        doubleTap1.recognizeWith(singleTap1);
+        doubleTap2.recognizeWith(singleTap2);
         doubleTap1.requireFailure(singleTap1);
         doubleTap2.requireFailure(singleTap2);
         
@@ -186,10 +186,18 @@ var tonk0006_giftr = {
         
     },
     
-    openNewGiftForPersonModal: function () {
+    openNewGiftForPersonModal: function (ev) {
         console.log('Gift for person modal window opened');
         document.querySelector('[data-role=modal]#add-gift-per').style.display = 'block';
         document.querySelector('[data-role=overlay]').style.display = 'block';
+        var name = ev.target.innerHTML;
+        console.log(name);
+        var h3s = document.querySelectorAll('h3');
+        h3s[2].innerHTML = 'New gift for super cool<strong>' + name + '</strong>.';
+        
+//        var item = ev.target.innerHTML;
+//        document.getElementById('list-per').value = item;
+//        document.getElementById('list-per').innerHTML = item;
     },
     
     openNewGiftForOccasionModal: function () {
@@ -203,7 +211,7 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-per').value;
         li.innerHTML = text;
-        li.setAttribute('data-ref', text);
+//        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
         if (text)
             ul[0].appendChild(li);
@@ -217,7 +225,7 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-occ').value;
         li.innerHTML = text;
-        li.setAttribute('data-ref', text);
+//        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
         if(text)
             ul[1].appendChild(li);
