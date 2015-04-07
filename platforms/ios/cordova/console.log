@@ -2504,3 +2504,211 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-07 00:52:40.291 Giftr[41590:2317654] Gift for occasion modal window opened
 2015-04-07 00:52:42.996 Giftr[41590:2317654] Gift for occasion modal window opened
 2015-04-07 00:52:46.130 Giftr[41590:2317654] Gift for occasion modal window opened
+2015-04-07 01:13:48.664 Giftr[41590:2317654] Person modal window opened
+2015-04-07 01:15:56.192 Giftr[41590:2317654] Person modal window opened
+2015-04-07 01:18:56.962 Giftr[42608:2335899] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/A9E1DBE0-FD8B-4AB7-A91B-1C784266F179/Library/Cookies/Cookies.binarycookies
+2015-04-07 01:18:57.050 Giftr[42608:2335899] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 01:18:57.050 Giftr[42608:2335899] Multi-tasking -> Device: YES, App: YES
+2015-04-07 01:18:57.051 Giftr[42608:2335899] Unlimited access to network resources
+2015-04-07 01:18:57.060 Giftr[42608:2335899] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 01:18:57.331 Giftr[42608:2335899] [CDVTimer][splashscreen] 65.934002ms
+2015-04-07 01:18:57.331 Giftr[42608:2335899] [CDVTimer][TotalPluginStartup] 66.062987ms
+2015-04-07 01:18:57.430 Giftr[42608:2335899] Resetting plugins due to page load.
+2015-04-07 01:18:57.503 Giftr[42608:2335899] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/9CE4A5AF-D849-4D32-B638-E99995B4F40E/Giftr.app/www/index.html
+2015-04-07 01:27:06.372 Giftr[42608:2335899] Person modal window opened
+2015-04-07 01:27:24.669 Giftr[42608:2335899] Gift for occasion modal window opened
+2015-04-07 01:27:32.693 Giftr[42608:2335899] Occasion modal window opened
+2015-04-07 01:40:25.820 Giftr[43375:2347614] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/A2933F26-5235-4278-AEE6-BBD5A02D26C5/Library/Cookies/Cookies.binarycookies
+2015-04-07 01:40:25.906 Giftr[43375:2347614] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 01:40:25.906 Giftr[43375:2347614] Multi-tasking -> Device: YES, App: YES
+2015-04-07 01:40:25.907 Giftr[43375:2347614] Unlimited access to network resources
+2015-04-07 01:40:25.915 Giftr[43375:2347614] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 01:40:26.175 Giftr[43375:2347614] [CDVTimer][splashscreen] 69.639981ms
+2015-04-07 01:40:26.175 Giftr[43375:2347614] [CDVTimer][TotalPluginStartup] 69.840014ms
+2015-04-07 01:40:26.272 Giftr[43375:2347614] Resetting plugins due to page load.
+2015-04-07 01:40:26.356 Giftr[43375:2347614] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/72A52CC1-C608-48DC-A4E7-E51EFCDD5D03/Giftr.app/www/index.html
+2015-04-07 01:40:34.223 Giftr[43375:2347614] Person modal window opened
+2015-04-07 01:40:38.662 Giftr[43375:2347614] Person modal window opened
+2015-04-07 01:40:41.844 Giftr[43375:2347614] Person modal window opened
+2015-04-07 01:41:21.256 Giftr[43375:2347614] Occasion modal window opened
+2015-04-07 01:41:26.350 Giftr[43375:2347614] Occasion modal window opened
+2015-04-07 01:41:37.234 Giftr[43375:2347614] Occasion modal window opened
+2015-04-07 01:43:34.169 Giftr[43530:2349620] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/8E77ECBC-3B8A-4545-9213-11231F903A7D/Library/Cookies/Cookies.binarycookies
+2015-04-07 01:43:34.282 Giftr[43530:2349620] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 01:43:34.282 Giftr[43530:2349620] Multi-tasking -> Device: YES, App: YES
+2015-04-07 01:43:34.283 Giftr[43530:2349620] Unlimited access to network resources
+2015-04-07 01:43:34.285 Giftr[43530:2349620] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 01:43:34.516 Giftr[43530:2349620] [CDVTimer][splashscreen] 49.080014ms
+2015-04-07 01:43:34.516 Giftr[43530:2349620] [CDVTimer][TotalPluginStartup] 49.275041ms
+2015-04-07 01:43:34.585 Giftr[43530:2349620] Resetting plugins due to page load.
+2015-04-07 01:43:34.647 Giftr[43530:2349620] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/6B00CC0A-1ACA-4E98-9466-782709A9EE4B/Giftr.app/www/index.html
+2015-04-07 01:44:05.664 Giftr[43530:2349620] Person modal window opened
+2015-04-07 01:44:08.098 Giftr[43530:2349620] Person modal window opened
+2015-04-07 01:44:15.423 Giftr[43530:2349620] Occasion modal window opened
+2015-04-07 09:11:13.488 Giftr[44492:2374724] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/C21DF4CC-D82E-4D0A-ACCE-83E8F5105A55/Library/Cookies/Cookies.binarycookies
+2015-04-07 09:11:13.665 Giftr[44492:2374724] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 09:11:13.666 Giftr[44492:2374724] Multi-tasking -> Device: YES, App: YES
+2015-04-07 09:11:13.667 Giftr[44492:2374724] Unlimited access to network resources
+2015-04-07 09:11:13.682 Giftr[44492:2374724] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 09:11:13.966 Giftr[44492:2374724] [CDVTimer][splashscreen] 104.253054ms
+2015-04-07 09:11:13.966 Giftr[44492:2374724] [CDVTimer][TotalPluginStartup] 104.404032ms
+2015-04-07 09:11:14.178 Giftr[44492:2374724] Resetting plugins due to page load.
+2015-04-07 09:11:14.273 Giftr[44492:2374724] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/457598C3-A89B-45A8-B499-D5C74535B285/Giftr.app/www/index.html
+2015-04-07 09:15:30.221 Giftr[44492:2374724] Person modal window opened
+2015-04-07 09:15:32.859 Giftr[44492:2374724] Person modal window opened
+2015-04-07 09:15:35.184 Giftr[44492:2374724] Person modal window opened
+2015-04-07 09:15:49.442 Giftr[44492:2374724] Occasion modal window opened
+2015-04-07 09:15:52.971 Giftr[44492:2374724] Occasion modal window opened
+2015-04-07 09:15:59.803 Giftr[44492:2374724] Occasion modal window opened
+2015-04-07 09:18:31.982 Giftr[44785:2379646] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/4FF7CC63-C95B-4E63-815F-867C8DD9B6C5/Library/Cookies/Cookies.binarycookies
+2015-04-07 09:18:32.059 Giftr[44785:2379646] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 09:18:32.059 Giftr[44785:2379646] Multi-tasking -> Device: YES, App: YES
+2015-04-07 09:18:32.060 Giftr[44785:2379646] Unlimited access to network resources
+2015-04-07 09:18:32.062 Giftr[44785:2379646] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 09:18:32.272 Giftr[44785:2379646] [CDVTimer][splashscreen] 50.490022ms
+2015-04-07 09:18:32.272 Giftr[44785:2379646] [CDVTimer][TotalPluginStartup] 50.625026ms
+2015-04-07 09:18:32.345 Giftr[44785:2379646] Resetting plugins due to page load.
+2015-04-07 09:18:32.417 Giftr[44785:2379646] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/2C967D3C-E0ED-4849-9FCD-4689064A6CC8/Giftr.app/www/index.html
+2015-04-07 09:18:36.317 Giftr[44785:2379646] Person modal window opened
+2015-04-07 09:18:39.920 Giftr[44785:2379646] Person modal window opened
+2015-04-07 09:18:42.294 Giftr[44785:2379646] Person modal window opened
+2015-04-07 09:18:49.284 Giftr[44785:2379646] Occasion modal window opened
+2015-04-07 09:18:52.241 Giftr[44785:2379646] Occasion modal window opened
+2015-04-07 09:18:58.755 Giftr[44785:2379646] Occasion modal window opened
+2015-04-07 09:19:43.882 Giftr[44884:2380648] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/57DA0FF6-02F3-4126-AF30-9041C0EF7C0B/Library/Cookies/Cookies.binarycookies
+2015-04-07 09:19:43.956 Giftr[44884:2380648] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 09:19:43.956 Giftr[44884:2380648] Multi-tasking -> Device: YES, App: YES
+2015-04-07 09:19:43.957 Giftr[44884:2380648] Unlimited access to network resources
+2015-04-07 09:19:43.959 Giftr[44884:2380648] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 09:19:44.159 Giftr[44884:2380648] [CDVTimer][splashscreen] 45.715034ms
+2015-04-07 09:19:44.159 Giftr[44884:2380648] [CDVTimer][TotalPluginStartup] 45.850992ms
+2015-04-07 09:19:44.229 Giftr[44884:2380648] Resetting plugins due to page load.
+2015-04-07 09:19:44.295 Giftr[44884:2380648] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/74E05377-839A-496A-8883-DCF113E45535/Giftr.app/www/index.html
+2015-04-07 09:19:47.455 Giftr[44884:2380648] Person modal window opened
+2015-04-07 09:19:57.462 Giftr[44884:2380648] Occasion modal window opened
+2015-04-07 09:49:50.489 Giftr[45901:2396665] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/D054CAD3-80A9-4895-A93D-E08B089B5D83/Library/Cookies/Cookies.binarycookies
+2015-04-07 09:49:50.605 Giftr[45901:2396665] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 09:49:50.605 Giftr[45901:2396665] Multi-tasking -> Device: YES, App: YES
+2015-04-07 09:49:50.606 Giftr[45901:2396665] Unlimited access to network resources
+2015-04-07 09:49:50.610 Giftr[45901:2396665] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 09:49:50.893 Giftr[45901:2396665] [CDVTimer][splashscreen] 100.712001ms
+2015-04-07 09:49:50.894 Giftr[45901:2396665] [CDVTimer][TotalPluginStartup] 100.831985ms
+2015-04-07 09:49:50.989 Giftr[45901:2396665] Resetting plugins due to page load.
+2015-04-07 09:49:51.097 Giftr[45901:2396665] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/519C6032-485B-4BCB-B3DD-1009A8836EF8/Giftr.app/www/index.html
+2015-04-07 09:50:02.426 Giftr[45901:2396665] Person modal window opened
+2015-04-07 09:50:05.305 Giftr[45901:2396665] Person modal window opened
+2015-04-07 09:50:07.871 Giftr[45901:2396665] Person modal window opened
+2015-04-07 09:50:13.808 Giftr[45901:2396665] Occasion modal window opened
+2015-04-07 09:50:17.949 Giftr[45901:2396665] Occasion modal window opened
+2015-04-07 09:50:22.544 Giftr[45901:2396665] Occasion modal window opened
+2015-04-07 10:06:58.442 Giftr[46487:2406912] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/3F6A11CB-E8ED-4D41-9D60-146AF067CB73/Library/Cookies/Cookies.binarycookies
+2015-04-07 10:06:58.522 Giftr[46487:2406912] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 10:06:58.523 Giftr[46487:2406912] Multi-tasking -> Device: YES, App: YES
+2015-04-07 10:06:58.523 Giftr[46487:2406912] Unlimited access to network resources
+2015-04-07 10:06:58.535 Giftr[46487:2406912] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 10:06:58.804 Giftr[46487:2406912] [CDVTimer][splashscreen] 80.899000ms
+2015-04-07 10:06:58.804 Giftr[46487:2406912] [CDVTimer][TotalPluginStartup] 81.019998ms
+2015-04-07 10:06:58.896 Giftr[46487:2406912] Resetting plugins due to page load.
+2015-04-07 10:06:59.006 Giftr[46487:2406912] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/B99BEF46-D881-4BB6-8A11-A1D643C8D1CE/Giftr.app/www/index.html
+2015-04-07 10:07:03.182 Giftr[46487:2406912] Person modal window opened
+2015-04-07 10:07:05.939 Giftr[46487:2406912] Person modal window opened
+2015-04-07 10:07:08.856 Giftr[46487:2406912] Person modal window opened
+2015-04-07 10:07:15.867 Giftr[46487:2406912] Occasion modal window opened
+2015-04-07 10:07:19.934 Giftr[46487:2406912] Occasion modal window opened
+2015-04-07 10:07:23.867 Giftr[46487:2406912] Occasion modal window opened
+2015-04-07 10:07:29.884 Giftr[46487:2406912] Karamelle
+2015-04-07 10:07:29.885 Giftr[46487:2406912] Karamelle
+2015-04-07 10:07:38.864 Giftr[46487:2406912] Easter
+2015-04-07 10:07:38.864 Giftr[46487:2406912] Easter
+2015-04-07 10:08:08.485 Giftr[46585:2408049] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/6A03F684-C31A-425B-B0B7-10BBC0C2AC90/Library/Cookies/Cookies.binarycookies
+2015-04-07 10:08:08.574 Giftr[46585:2408049] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 10:08:08.574 Giftr[46585:2408049] Multi-tasking -> Device: YES, App: YES
+2015-04-07 10:08:08.576 Giftr[46585:2408049] Unlimited access to network resources
+2015-04-07 10:08:08.579 Giftr[46585:2408049] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 10:08:08.925 Giftr[46585:2408049] [CDVTimer][splashscreen] 46.981037ms
+2015-04-07 10:08:08.925 Giftr[46585:2408049] [CDVTimer][TotalPluginStartup] 47.122002ms
+2015-04-07 10:08:08.999 Giftr[46585:2408049] Resetting plugins due to page load.
+2015-04-07 10:08:09.064 Giftr[46585:2408049] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/6474030A-DDF6-4A54-82FE-3C475E315D34/Giftr.app/www/index.html
+2015-04-07 10:08:24.955 Giftr[46585:2408049] Occasion modal window opened
+2015-04-07 10:08:28.656 Giftr[46585:2408049] BD
+2015-04-07 10:08:28.656 Giftr[46585:2408049] BD
+2015-04-07 10:08:51.456 Giftr[46585:2408049] Person modal window opened
+2015-04-07 10:08:54.002 Giftr[46585:2408049] Person modal window opened
+2015-04-07 10:08:59.280 Giftr[46585:2408049] Person modal window opened
+2015-04-07 10:09:03.980 Giftr[46585:2408049] Nyuta
+2015-04-07 10:09:03.981 Giftr[46585:2408049] Nyuta
+2015-04-07 10:09:10.134 Giftr[46585:2408049] Karamelle
+2015-04-07 10:09:10.134 Giftr[46585:2408049] Karamelle
+2015-04-07 10:09:19.309 Giftr[46585:2408049] Vova
+2015-04-07 10:09:19.309 Giftr[46585:2408049] Vova
+2015-04-07 10:09:25.849 Giftr[46585:2408049] Occasion modal window opened
+2015-04-07 10:09:28.796 Giftr[46585:2408049] NY
+2015-04-07 10:09:28.796 Giftr[46585:2408049] NY
+2015-04-07 10:09:34.694 Giftr[46585:2408049] Occasion modal window opened
+2015-04-07 10:09:39.053 Giftr[46585:2408049] CD
+2015-04-07 10:09:39.053 Giftr[46585:2408049] CD
+2015-04-07 10:09:47.340 Giftr[46585:2408049] NY
+2015-04-07 10:09:47.340 Giftr[46585:2408049] NY
