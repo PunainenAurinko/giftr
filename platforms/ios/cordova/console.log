@@ -3025,3 +3025,159 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-07 15:38:02.171 Giftr[57463:3100590] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/96AB57C0-72C0-4260-95F8-E41B75A4FEC5/Giftr.app/www/index.html
 2015-04-07 15:38:26.600 Giftr[57463:3100590] Person modal window opened
 2015-04-07 15:39:24.574 Giftr[57463:3100590] Person modal window opened
+2015-04-07 22:57:05.132 Giftr[1233:80624] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/9F0BC277-AEFA-4845-9A0A-0E832F3A7448/Library/Cookies/Cookies.binarycookies
+2015-04-07 22:57:05.302 Giftr[1233:80624] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 22:57:05.303 Giftr[1233:80624] Multi-tasking -> Device: YES, App: YES
+2015-04-07 22:57:05.309 Giftr[1233:80624] Unlimited access to network resources
+2015-04-07 22:57:05.321 Giftr[1233:80624] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 22:57:05.755 Giftr[1233:80624] [CDVTimer][splashscreen] 178.412974ms
+2015-04-07 22:57:05.756 Giftr[1233:80624] [CDVTimer][TotalPluginStartup] 178.546011ms
+2015-04-07 22:57:05.914 Giftr[1233:80624] Resetting plugins due to page load.
+2015-04-07 22:57:06.030 Giftr[1233:80624] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/4A626682-5B1C-4642-93BD-E879B8ECFEB7/Giftr.app/www/index.html
+2015-04-07 22:57:17.284 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:22.278 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:25.071 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:28.528 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:43.370 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:49.679 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:57:57.788 Giftr[1233:80624] Person modal window opened
+2015-04-07 22:58:05.621 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:05.621 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:07.326 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:07.326 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:08.178 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:08.178 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:10.460 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:10.461 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:11.610 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:11.610 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:12.310 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:12.310 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:13.046 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:13.046 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:13.820 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:13.820 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:14.520 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:14.520 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:24.622 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:24.622 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:25.266 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:25.266 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:25.794 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:25.794 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:26.312 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:26.312 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:27.652 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:27.652 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:28.287 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:28.287 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:31.060 Giftr[1233:80624] Dragon
+2015-04-07 22:58:31.060 Giftr[1233:80624] Dragon
+2015-04-07 22:58:36.723 Giftr[1233:80624] Dragon
+2015-04-07 22:58:36.723 Giftr[1233:80624] Dragon
+2015-04-07 22:58:43.624 Giftr[1233:80624] Double-tap event occured
+2015-04-07 22:58:43.624 Giftr[1233:80624] Double-tap event occured
+2015-04-07 23:01:44.612 Giftr[1233:80624] Occasion modal window opened
+2015-04-07 23:01:47.591 Giftr[1233:80624] Double-tap event occured
+2015-04-07 23:01:47.591 Giftr[1233:80624] Double-tap event occured
+2015-04-07 23:24:21.382 Giftr[1415:95764] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/F354B18F-055B-453F-BA2F-20D3CE54C339/Library/Cookies/Cookies.binarycookies
+2015-04-07 23:24:21.483 Giftr[1415:95764] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 23:24:21.483 Giftr[1415:95764] Multi-tasking -> Device: YES, App: YES
+2015-04-07 23:24:21.485 Giftr[1415:95764] Unlimited access to network resources
+2015-04-07 23:24:21.491 Giftr[1415:95764] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 23:24:21.880 Giftr[1415:95764] [CDVTimer][splashscreen] 67.366004ms
+2015-04-07 23:24:21.880 Giftr[1415:95764] [CDVTimer][TotalPluginStartup] 67.490995ms
+2015-04-07 23:24:22.076 Giftr[1415:95764] Resetting plugins due to page load.
+2015-04-07 23:24:22.118 Giftr[1415:95764] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/D2F31A6D-E794-40C6-8B19-6541B14327CF/Giftr.app/www/index.html
+2015-04-07 23:26:29.744 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:26:32.436 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:26:34.821 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:26:41.423 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:26:47.724 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:26:59.138 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:27:06.708 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:11.170 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:15.837 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:19.559 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:24.087 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:32.166 Giftr[1415:95764] Occasion modal window opened
+2015-04-07 23:27:46.973 Giftr[1415:95764] 1st Day of Summer
+2015-04-07 23:27:46.973 Giftr[1415:95764] 1st Day of Summer
+2015-04-07 23:27:50.450 Giftr[1415:95764] Gift for occasion modal window opened
+2015-04-07 23:34:04.981 Giftr[1415:95764] Paddington
+2015-04-07 23:34:04.982 Giftr[1415:95764] Paddington
+2015-04-07 23:34:07.180 Giftr[1415:95764] Gift for person modal window opened
+2015-04-07 23:34:07.180 Giftr[1415:95764] {"0":{},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"length":12}
+2015-04-07 23:34:16.052 Giftr[1415:95764] 1st Day of Summer
+2015-04-07 23:34:16.057 Giftr[1415:95764] 1st Day of Summer
+2015-04-07 23:34:17.632 Giftr[1415:95764] Gift for occasion modal window opened
+2015-04-07 23:35:02.735 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:36:17.558 Giftr[1415:95764] Person modal window opened
+2015-04-07 23:36:19.759 Giftr[1415:95764] Karamelle
+2015-04-07 23:36:19.760 Giftr[1415:95764] Karamelle
+2015-04-07 23:36:21.422 Giftr[1415:95764] Gift for person modal window opened
+2015-04-07 23:36:21.422 Giftr[1415:95764] {"0":{},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"length":12}
+2015-04-07 23:48:58.472 Giftr[1415:95764] Toothless
+2015-04-07 23:48:58.474 Giftr[1415:95764] Toothless
+2015-04-07 23:49:00.045 Giftr[1415:95764] Gift for person modal window opened
+2015-04-07 23:49:00.045 Giftr[1415:95764] {"0":{},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"length":12}
+2015-04-07 23:49:30.692 Giftr[1415:95764] Toothless
+2015-04-07 23:49:30.692 Giftr[1415:95764] Toothless
+2015-04-07 23:50:18.125 Giftr[1575:108626] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/D318140C-B5A5-498F-9B16-5B898D90F1A4/Library/Cookies/Cookies.binarycookies
+2015-04-07 23:50:18.223 Giftr[1575:108626] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-07 23:50:18.223 Giftr[1575:108626] Multi-tasking -> Device: YES, App: YES
+2015-04-07 23:50:18.224 Giftr[1575:108626] Unlimited access to network resources
+2015-04-07 23:50:18.226 Giftr[1575:108626] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-07 23:50:18.491 Giftr[1575:108626] [CDVTimer][splashscreen] 98.079979ms
+2015-04-07 23:50:18.491 Giftr[1575:108626] [CDVTimer][TotalPluginStartup] 98.209023ms
+2015-04-07 23:50:18.595 Giftr[1575:108626] Resetting plugins due to page load.
+2015-04-07 23:50:18.637 Giftr[1575:108626] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/27781FC4-3AC6-4F98-9926-A11BADD1B938/Giftr.app/www/index.html
+2015-04-07 23:50:20.331 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:50:22.942 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:50:27.364 Giftr[1575:108626] Double-tap event occured
+2015-04-07 23:50:27.364 Giftr[1575:108626] Double-tap event occured
+2015-04-07 23:50:28.806 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:50:32.702 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:50:59.532 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:51:04.319 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:51:08.957 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:51:16.053 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:20.615 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:24.470 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:30.393 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:42.165 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:46.486 Giftr[1575:108626] Occasion modal window opened
+2015-04-07 23:51:53.646 Giftr[1575:108626] Canada Day
+2015-04-07 23:51:53.646 Giftr[1575:108626] Canada Day
+2015-04-07 23:51:57.620 Giftr[1575:108626] Gift for occasion modal window opened
+2015-04-07 23:53:43.786 Giftr[1575:108626] Paddingtin
+2015-04-07 23:53:43.788 Giftr[1575:108626] Paddingtin
+2015-04-07 23:53:47.838 Giftr[1575:108626] Paddingtin
+2015-04-07 23:53:47.838 Giftr[1575:108626] Paddingtin
+2015-04-07 23:53:50.911 Giftr[1575:108626] Double-tap event occured
+2015-04-07 23:53:50.911 Giftr[1575:108626] Double-tap event occured
+2015-04-07 23:53:52.730 Giftr[1575:108626] Person modal window opened
+2015-04-07 23:59:46.939 Giftr[1575:108626] New Year
+2015-04-07 23:59:46.940 Giftr[1575:108626] New Year
+2015-04-07 23:59:48.904 Giftr[1575:108626] Gift for occasion modal window opened
