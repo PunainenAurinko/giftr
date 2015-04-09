@@ -5238,3 +5238,38 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-09 08:41:57.715 Giftr[5154:174530] Displayed gift ideas page for Nyuta
 2015-04-09 08:41:59.497 Giftr[5154:174530] Gift for person modal window opened
 2015-04-09 08:41:59.497 Giftr[5154:174530] {"0":{},"1":{},"2":{},"3":{},"4":{},"length":5}
+2015-04-09 08:46:31.173 Giftr[5231:177435] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/399BA9BC-7B8F-475B-8EA3-A172D6AA5D0C/Library/Cookies/Cookies.binarycookies
+2015-04-09 08:46:31.241 Giftr[5231:177435] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 08:46:31.241 Giftr[5231:177435] Multi-tasking -> Device: YES, App: YES
+2015-04-09 08:46:31.242 Giftr[5231:177435] Unlimited access to network resources
+2015-04-09 08:46:31.244 Giftr[5231:177435] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 08:46:31.435 Giftr[5231:177435] [CDVTimer][splashscreen] 44.987977ms
+2015-04-09 08:46:31.435 Giftr[5231:177435] [CDVTimer][TotalPluginStartup] 45.126975ms
+2015-04-09 08:46:31.502 Giftr[5231:177435] Resetting plugins due to page load.
+2015-04-09 08:46:31.551 Giftr[5231:177435] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/59869DC9-66A3-44B0-962E-6740C868391E/Giftr.app/www/index.html
+2015-04-09 08:46:31.595 Giftr[5231:177435] Connecting to database...
+2015-04-09 08:46:31.595 Giftr[5231:177435] Successfully connected to database!
+2015-04-09 08:46:34.740 Giftr[5231:177435] Person modal window opened
+2015-04-09 08:46:36.143 Giftr[5231:177435] Vova has been added to the database.
+2015-04-09 08:46:37.184 Giftr[5231:177435] Person modal window opened
+2015-04-09 08:46:38.635 Giftr[5231:177435] Nyuta has been added to the database.
+2015-04-09 08:46:40.437 Giftr[5231:177435] Displayed gift ideas page for Vova
+2015-04-09 08:46:43.623 Giftr[5231:177435] Gift for person modal window opened
+2015-04-09 08:46:43.623 Giftr[5231:177435] {"0":{},"1":{},"length":2}
+2015-04-09 08:46:51.376 Giftr[5231:177435] Gift for person modal window opened
+2015-04-09 08:46:51.376 Giftr[5231:177435] {"0":{},"1":{},"length":2}
+2015-04-09 08:47:03.006 Giftr[5231:177435] Double-tap event occured
+2015-04-09 08:47:03.006 Giftr[5231:177435] Item Vova was deleted from the screen
+2015-04-09 08:47:03.008 Giftr[5231:177435] Item Vova has been deleted from the database.
+2015-04-09 08:48:40.073 Giftr[5231:177435] Displayed gift ideas page for Nyuta
+2015-04-09 08:48:44.996 Giftr[5231:177435] Occasion modal window opened
+2015-04-09 08:48:47.694 Giftr[5231:177435] BD has been added to the database.
+2015-04-09 08:48:49.063 Giftr[5231:177435] Displayed gift ideas page for BD
+2015-04-09 08:48:50.505 Giftr[5231:177435] Gift for occasion modal window opened

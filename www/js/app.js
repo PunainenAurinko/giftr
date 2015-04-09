@@ -368,6 +368,17 @@ var tonk0006_giftr = {
         var li = document.getElementById(item);
         li.parentNode.removeChild(li);
         console.log('Item ' + item + ' was deleted from the screen');
+        
+        tonk0006_giftr.db.transaction(function (tr) {
+            tr.executeSql("DELETE FROM people WHERE person_name = '" + item + "'", [],
+                function (tx, rs) {
+                    console.log('Item ' + item + ' has been deleted from the database.')
+//                    tonk0006_giftr.cancelModal();
+                },
+                function (tx, err) {
+                    console.info(err.message);
+                });
+        });
     },
 
     cancelModal: function () {
