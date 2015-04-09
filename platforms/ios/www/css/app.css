@@ -45,6 +45,7 @@ p {
     letter-spacing: 10px;
     word-spacing: 10px;
 }
+
 /*************************************
         Layout
 *************************************/
@@ -113,21 +114,6 @@ input:focus {
     font-size: 1.0rem;
 }
 
-.narrow {
-    width: 2rem;
-}
-
-.med {
-    width: 10rem;
-}
-
-.wide {
-    width: 25rem;
-}
-
-.xwide {
-    width: 40rem;
-}
 /*************************************
         Pages
 *************************************/

@@ -1,51 +1,53 @@
-//tonk0006_giftr.js
+//app.js
 
 var tonk0006_giftr = {
     loadRequirements: 0,
+    personName: '',
+    occasionName: '',
     init: function () {
         document.addEventListener('deviceready', this.onDeviceReady);
         document.addEventListener('DOMContentLoaded', this.onDomReady);
     },
     onDeviceReady: function () {
         //alert("Device is ready");
-//        tonk0006_giftr.loadRequirements++;
-//        if (tonk0006_giftr.loadRequirements === 2) {
+        tonk0006_giftr.loadRequirements++;
+        if (tonk0006_giftr.loadRequirements === 2) {
             tonk0006_giftr.start();
-//        }
+        }
     },
     onDomReady: function () {
         //alert("DOM is ready");
-//        tonk0006_giftr.loadRequirements++;
-//        if (tonk0006_giftr.loadRequirements === 2) {
+        tonk0006_giftr.loadRequirements++;
+        if (tonk0006_giftr.loadRequirements === 2) {
             tonk0006_giftr.start();
-//        }
+        }
     },
     start: function () {
         //connect to database
         //build the lists for the main pages based on data
         //add button and navigation listeners
 
-        tonk0006_giftr.displayPeoplePage();
+        tonk0006_giftr.showPeopleList();
         
         var addButtons = document.querySelectorAll('.btnAdd');
-        addButtons[0].addEventListener('click', tonk0006_giftr.openNewPersonModal);
-        addButtons[1].addEventListener('click', tonk0006_giftr.openNewOccasionModal);
-        addButtons[2].addEventListener('click', tonk0006_giftr.openNewGiftForPersonModal);
-        addButtons[3].addEventListener('click', tonk0006_giftr.openNewGiftForOccasionModal);
+        addButtons[0].addEventListener('click', tonk0006_giftr.addPerson);
+        addButtons[1].addEventListener('click', tonk0006_giftr.addOccasion);
+        addButtons[2].addEventListener('click', tonk0006_giftr.addGiftForPerson);
+        addButtons[3].addEventListener('click', tonk0006_giftr.addGiftForOccasion);
 
         var cancelButtons = document.querySelectorAll('.btnCancel');
-        cancelButtons[0].addEventListener('click', tonk0006_giftr.displayPeoplePage);
-        cancelButtons[1].addEventListener('click', tonk0006_giftr.displayOccasionsPage);
+        cancelButtons[0].addEventListener('click', tonk0006_giftr.cancelModal);
+        cancelButtons[1].addEventListener('click', tonk0006_giftr.cancelModal);
         cancelButtons[2].addEventListener('click', tonk0006_giftr.cancelModal);
         cancelButtons[3].addEventListener('click', tonk0006_giftr.cancelModal);
         
         var saveButtons = document.querySelectorAll('.btnSave');
         saveButtons[0].addEventListener('click', tonk0006_giftr.savePerson);
         saveButtons[1].addEventListener('click', tonk0006_giftr.saveOccasion);
-        saveButtons[2].addEventListener('click', tonk0006_giftr.saveItem);
-        saveButtons[3].addEventListener('click', tonk0006_giftr.saveItem);
+        saveButtons[2].addEventListener('click', tonk0006_giftr.saveGiftForPerson);
+        saveButtons[3].addEventListener('click', tonk0006_giftr.saveGiftForOccasion);
         
-        document.querySelector('header').addEventListener('click', tonk0006_giftr.displayPeoplePage);
+        document.querySelector('header h1').addEventListener('click', tonk0006_giftr.showPeopleList);
                 
         var list = document.querySelectorAll('[data-role="listview"]');
         var hm1 = new Hammer.Manager(list[0]);
@@ -80,81 +82,65 @@ var tonk0006_giftr = {
         doubleTap1.requireFailure(singleTap1);
         doubleTap2.requireFailure(singleTap2);
         
-        hm1.on('singletap', tonk0006_giftr.displayGiftsForPeoplePage);
-        hm2.on('singletap', tonk0006_giftr.displayGiftsForOccasionsPage);
+        hm1.on('singletap', tonk0006_giftr.showGiftsForPerson);
+        hm2.on('singletap', tonk0006_giftr.showGiftsForOccasion);
         hm1.on('doubletap', tonk0006_giftr.deleteListItem);
         hm2.on('doubletap', tonk0006_giftr.deleteListItem);
-//
-//        var swipeLeft = new Hammer.Tap({
-//            event: 'swipeleft'
-//        });
-//        var swipeRight = new Hammer.Tap({
-//            event: 'swiperight'
-//        });
         
-        //var header = new Hammer(document.querySelector('header'));
-        //header.on('tap', tonk0006_giftr.displayPeoplePage);
+        var pages = document.querySelectorAll('[data-role=page]');
         
-        var goToPeople = new Hammer(document.querySelector('[data-role=page]#occasion-list'));
-        goToPeople.on('swiperight', tonk0006_giftr.displayPeoplePage);
+        var goToPeople = new Hammer(pages[1]);
+        goToPeople.on('swiperight', tonk0006_giftr.showPeopleList);
         
-        var goToOccassions = new Hammer(document.querySelector('[data-role=page]#people-list'));
-        goToOccassions.on('swipeleft', tonk0006_giftr.displayOccasionsPage);
+        var goToOccassions = new Hammer(pages[0]);
+        goToOccassions.on('swipeleft', tonk0006_giftr.showOccasionList);
 
     },
 
-    displayPeoplePage: function () {
-        document.querySelector('[data-role=modal]#add-person').style.display = 'none';
-        document.querySelector('[data-role=overlay]').style.display = 'none';
-        document.querySelector('[data-role=page]#people-list').style.display = 'block';
-        document.querySelector('[data-role=page]#occasion-list').style.display = 'none';
-        document.querySelector('[data-role=page]#gifts-for-person').style.display = 'none';
-        document.querySelector('[data-role=page]#gifts-for-occasion').style.display = 'none';
+    showPeopleList: function () {
+        var pages = document.querySelectorAll('[data-role=page]');
+        pages[0].style.display = 'block';
+        pages[1].style.display = 'none';
+        pages[2].style.display = 'none';
+        pages[3].style.display = 'none';
     },
 
-    displayOccasionsPage: function () {
-        document.querySelector('[data-role=modal]#add-occasion').style.display = 'none';
-        document.querySelector('[data-role=overlay]').style.display = 'none';
-        document.querySelector('[data-role=page]#people-list').style.display = 'none';
-        document.querySelector('[data-role=page]#occasion-list').style.display = 'block';
-        document.querySelector('[data-role=page]#gifts-for-person').style.display = 'none';
-        document.querySelector('[data-role=page]#gifts-for-occasion').style.display = 'none';
+    showOccasionList: function () {
+        var pages = document.querySelectorAll('[data-role=page]');
+        pages[0].style.display = 'none';
+        pages[1].style.display = 'block';
+        pages[2].style.display = 'none';
+        pages[3].style.display = 'none';
     },
     
-    displayGiftsForPeoplePage: function (ev) {
-        //document.querySelector('[data-role=modal]#add-gift-per').style.display = 'none';
-        //document.querySelector('[data-role=overlay]').style.display = 'none';
-        document.querySelector('[data-role=page]#people-list').style.display = 'none';
-        //document.querySelector('[data-role=page]#occasion-list').style.display = 'none';
-        document.querySelector('[data-role=page]#gifts-for-person').style.display = 'block';
-        //document.querySelector('[data-role=page]#gifts-for-occasion').style.display = 'none';
-//        var name = ev.target.getAttribute('data-ref');
+    showGiftsForPerson: function (ev) {
+        var pages = document.querySelectorAll('[data-role=page]');
+        pages[0].style.display = 'none';
+        pages[2].style.display = 'block';
         var name = ev.target.innerHTML;
-        console.log(name);
+        console.log('Displayed gift ideas page for ' + name);
         var paras = document.querySelectorAll('.details');
         if (paras[2].innerHTML !== '')
-        paras[2].innerHTML = 'Here are all the gift ideas for <strong>' + name + '</strong> for all occasions.';
+            paras[2].innerHTML = 'Here are all the gift ideas for <strong>' + name + '</strong> for all occasions.';
+        personName = name;
     },
     
-    displayGiftsForOccasionsPage: function (ev) {
-        //document.querySelector('[data-role=modal]#add-gift-occ').style.display = 'none';
-        //document.querySelector('[data-role=overlay]').style.display = 'none';
-        //document.querySelector('[data-role=page]#people-list').style.display = 'none';
-        document.querySelector('[data-role=page]#occasion-list').style.display = 'none';
-        //document.querySelector('[data-role=page]#gifts-for-person').style.display = 'none';
-        document.querySelector('[data-role=page]#gifts-for-occasion').style.display = 'block';
-//        var occasion = ev.target.getAttribute('data-ref');
+    showGiftsForOccasion: function (ev) {
+        var pages = document.querySelectorAll('[data-role=page]');
+        pages[1].style.display = 'none';
+        pages[3].style.display = 'block';
         var occasion = ev.target.innerHTML;
-        console.log(occasion);
+        console.log('Displayed gift ideas page for ' + occasion);
         var paras = document.querySelectorAll('.details');
-        paras[3].innerHTML = 'Here are all the gift ideas for <strong>' + occasion + '</strong> for all people.';
+        if (paras[3].innerHTML !== '')
+            paras[3].innerHTML = 'Here are all the gift ideas for <strong>' + occasion + '</strong> for all people.';
+        occasionName = occasion;
     },
 
-    openNewPersonModal: function () {
+    addPerson: function () {
         console.log('Person modal window opened');
         document.querySelector('[data-role=modal]#add-person').style.display = 'block';
         document.querySelector('[data-role=overlay]').style.display = 'block';
-//        document.querySelector('#new-per').value = '';
         var input = document.querySelector('#new-per');
         input.value = '';
         input.focus();
@@ -162,14 +148,13 @@ var tonk0006_giftr = {
             ev.stopImmediatePropagation();
             if (ev.keyCode === 13) {
                 ev.preventDefault();
-                //console.log(ev);
                 tonk0006_giftr.savePerson();
                 input.blur();
             }
         });
     },
 
-    openNewOccasionModal: function () {
+    addOccasion: function () {
         console.log('Occasion modal window opened');
         document.querySelector('[data-role=modal]#add-occasion').style.display = 'block';
         document.querySelector('[data-role=overlay]').style.display = 'block';
@@ -186,24 +171,22 @@ var tonk0006_giftr = {
         });
     },
     
-    openNewGiftForPersonModal: function () {
+    addGiftForPerson: function () {
         console.log('Gift for person modal window opened');
         document.querySelector('[data-role=modal]#add-gift-per').style.display = 'block';
         document.querySelector('[data-role=overlay]').style.display = 'block';
         var nameArray = document.querySelectorAll('li');
         console.log(nameArray);
-        var h3s = document.querySelectorAll('h3');
-        h3s[2].innerHTML = 'New gift for <strong>' + nameArray[0].innerHTML + '</strong>.';
-        
-//        var item = ev.target.innerHTML;
-//        document.getElementById('list-per').value = item;
-//        document.getElementById('list-per').innerHTML = item;
+        var headings = document.querySelectorAll('h3');
+        headings[2].innerHTML = 'New gift for <strong>' + personName + '</strong>.';
     },
     
-    openNewGiftForOccasionModal: function () {
+    addGiftForOccasion: function () {
         console.log('Gift for occasion modal window opened');
         document.querySelector('[data-role=modal]#add-gift-occ').style.display = 'block';
         document.querySelector('[data-role=overlay]').style.display = 'block';
+        var headings = document.querySelectorAll('h3');
+        headings[3].innerHTML = 'New gift for <strong>' + occasionName + '</strong>.';
     },
     
     savePerson: function () {
@@ -211,13 +194,11 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-per').value;
         li.innerHTML = text;
-        li.setAttribute('data-ref', text);
+//        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
         if (text)
             ul[0].appendChild(li);
-        document.querySelector('[data-role=modal]#add-person').style.display = 'none';
-        document.querySelector('[data-role=modal]#add-occasion').style.display = 'none';
-        document.querySelector('[data-role=overlay]').style.display = 'none';
+        tonk0006_giftr.cancelModal();
     },
     
     saveOccasion: function () {
@@ -225,13 +206,19 @@ var tonk0006_giftr = {
         var li = document.createElement('li');
         var text = document.querySelector('#new-occ').value;
         li.innerHTML = text;
-        li.setAttribute('data-ref', text);
+//        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
         if(text)
             ul[1].appendChild(li);
-        document.querySelector('[data-role=modal]#add-person').style.display = 'none';
-        document.querySelector('[data-role=modal]#add-occasion').style.display = 'none';
-        document.querySelector('[data-role=overlay]').style.display = 'none';
+        tonk0006_giftr.cancelModal();
+    },
+    
+    saveGiftForPerson: function () {
+        
+    },
+    
+    saveGiftForOccasion: function () {
+        
     },
     
     deleteListItem: function (ev) {
@@ -239,17 +226,17 @@ var tonk0006_giftr = {
         var item = ev.target.innerHTML;
         var li = document.getElementById(item);
         li.parentNode.removeChild(li);
+        console.log('Item ' + item + ' was deleted from the screen');
     },
     
     cancelModal: function () {
-        document.querySelector('[data-role=modal]#add-gift-per').style.display = 'none';
-        document.querySelector('[data-role=modal]#add-gift-occ').style.display = 'none';
+        var modals = document.querySelectorAll('[data-role=modal]');
+        modals[0].style.display = 'none';
+        modals[1].style.display = 'none';
+        modals[2].style.display = 'none';
+        modals[3].style.display = 'none';
         document.querySelector('[data-role=overlay]').style.display = 'none';
     }
 }
 
 tonk0006_giftr.init();
-
-//function test(){
-//    alert("TEST");
-//}
