@@ -27,8 +27,9 @@ var tonk0006_giftr = {
         //build the lists for the main pages based on data
         //add button and navigation listeners
 
+        tonk0006_giftr.dbConnect();
         tonk0006_giftr.showPeopleList();
-        
+
         var addButtons = document.querySelectorAll('.btnAdd');
         addButtons[0].addEventListener('click', tonk0006_giftr.addPerson);
         addButtons[1].addEventListener('click', tonk0006_giftr.addOccasion);
@@ -40,15 +41,15 @@ var tonk0006_giftr = {
         cancelButtons[1].addEventListener('click', tonk0006_giftr.cancelModal);
         cancelButtons[2].addEventListener('click', tonk0006_giftr.cancelModal);
         cancelButtons[3].addEventListener('click', tonk0006_giftr.cancelModal);
-        
+
         var saveButtons = document.querySelectorAll('.btnSave');
         saveButtons[0].addEventListener('click', tonk0006_giftr.savePerson);
         saveButtons[1].addEventListener('click', tonk0006_giftr.saveOccasion);
         saveButtons[2].addEventListener('click', tonk0006_giftr.saveGiftForPerson);
         saveButtons[3].addEventListener('click', tonk0006_giftr.saveGiftForOccasion);
-        
+
         document.querySelector('header h1').addEventListener('click', tonk0006_giftr.showPeopleList);
-                
+
         var list = document.querySelectorAll('[data-role="listview"]');
         var hm1 = new Hammer.Manager(list[0]);
         var hm2 = new Hammer.Manager(list[1]);
@@ -58,47 +59,47 @@ var tonk0006_giftr = {
         var singleTap1 = new Hammer.Tap({
             event: 'singletap'
         });
-        
+
         var doubleTap1 = new Hammer.Tap({
             event: 'doubletap',
             taps: 2,
             threshold: 10,
             posThreshold: 40
         });
-        
+
         var singleTap2 = new Hammer.Tap({
             event: 'singletap'
         });
-        
+
         var doubleTap2 = new Hammer.Tap({
             event: 'doubletap',
             taps: 2,
             threshold: 10,
             posThreshold: 40
         });
-        
-            var singleTap3 = new Hammer.Tap({
+
+        var singleTap3 = new Hammer.Tap({
             event: 'singletap'
         });
-        
+
         var doubleTap3 = new Hammer.Tap({
             event: 'doubletap',
             taps: 2,
             threshold: 10,
             posThreshold: 40
         });
-        
-            var singleTap4 = new Hammer.Tap({
+
+        var singleTap4 = new Hammer.Tap({
             event: 'singletap'
         });
-        
+
         var doubleTap4 = new Hammer.Tap({
             event: 'doubletap',
             taps: 2,
             threshold: 10,
             posThreshold: 40
         });
-        
+
         hm1.add([doubleTap1, singleTap1]);
         hm2.add([doubleTap2, singleTap2]);
         hm3.add([doubleTap3, singleTap3]);
@@ -111,22 +112,67 @@ var tonk0006_giftr = {
         doubleTap2.requireFailure(singleTap2);
         doubleTap3.requireFailure(singleTap3);
         doubleTap4.requireFailure(singleTap4);
-        
+
         hm1.on('singletap', tonk0006_giftr.showGiftsForPerson);
         hm2.on('singletap', tonk0006_giftr.showGiftsForOccasion);
         hm1.on('doubletap', tonk0006_giftr.deleteListItem);
         hm2.on('doubletap', tonk0006_giftr.deleteListItem);
         hm3.on('doubletap', tonk0006_giftr.deleteListItem);
         hm4.on('doubletap', tonk0006_giftr.deleteListItem);
-        
+
         var pages = document.querySelectorAll('[data-role=page]');
-        
+
         var goToPeople = new Hammer(pages[1]);
         goToPeople.on('swiperight', tonk0006_giftr.showPeopleList);
-        
+
         var goToOccassions = new Hammer(pages[0]);
         goToOccassions.on('swipeleft', tonk0006_giftr.showOccasionList);
 
+    },
+
+    dbConnect: function () {
+        console.log("Connecting to database...");
+        tonk0006_giftr.db = openDatabase('giftrDB', '', 'Giftr Database', 1024 * 1024);
+
+        if (tonk0006_giftr.db.version == "") {
+            console.log('First time running database... Creating new tables.');
+
+            tonk0006_giftr.db.changeVersion("", "1.0",
+                function (trans) {
+
+                    trans.executeSql("CREATE TABLE IF NOT EXISTS people(person_id INTEGER PRIMARY KEY AUTOINCREMENT, person_name TEXT)", [],
+                        function (tx, rs) {
+                            console.log("Table people created.");
+                        },
+                        function (tx, err) {
+                            console.error(err.message);
+                        });
+                    trans.executeSql("CREATE TABLE IF NOT EXISTS occasions(occ_id INTEGER PRIMARY KEY AUTOINCREMENT, occ_name TEXT)", [],
+                        function (tx, rs) {
+                            console.log("Table occasions created.");
+                        },
+                        function (tx, err) {
+                            console.error(err.message);
+                        });
+                    trans.executeSql("CREATE TABLE IF NOT EXISTS gifts(gift_id INTEGER PRIMARY KEY AUTOINCREMENT, person_id INTEGER, occ_id INTEGER, gift_idea TEXT, purchased BOOLEAN)", [],
+                        function (tx, rs) {
+                            console.log("Table gifts created.");
+                        },
+                        function (tx, err) {
+                            console.error(err.message);
+                        });
+                },
+                function (err) {
+                    console.error(err.message);
+                },
+                function () {
+                    tonk0006_giftr.showPeopleList();
+                });
+        } else {
+            console.log("Successfully connected to database!");
+
+            tonk0006_giftr.showPeopleList();
+        }
     },
 
     showPeopleList: function () {
@@ -144,7 +190,7 @@ var tonk0006_giftr = {
         pages[2].style.display = 'none';
         pages[3].style.display = 'none';
     },
-    
+
     showGiftsForPerson: function (ev) {
         var pages = document.querySelectorAll('[data-role=page]');
         pages[0].style.display = 'none';
@@ -156,7 +202,7 @@ var tonk0006_giftr = {
             paras[2].innerHTML = 'Here are all the gift ideas for <strong>' + name + '</strong> for all occasions.';
         personName = name;
     },
-    
+
     showGiftsForOccasion: function (ev) {
         var pages = document.querySelectorAll('[data-role=page]');
         pages[1].style.display = 'none';
@@ -202,7 +248,7 @@ var tonk0006_giftr = {
             }
         });
     },
-    
+
     addGiftForPerson: function () {
         console.log('Gift for person modal window opened');
         document.querySelector('[data-role=modal]#add-gift-per').style.display = 'block';
@@ -214,7 +260,7 @@ var tonk0006_giftr = {
         var inputs = document.querySelectorAll('#new-idea');
         var input = inputs[0];
         input.value = '';
-//        input.focus();
+        //        input.focus();
         input.addEventListener('keypress', function (ev) {
             ev.stopImmediatePropagation();
             if (ev.keyCode === 13) {
@@ -224,7 +270,7 @@ var tonk0006_giftr = {
             }
         });
     },
-    
+
     addGiftForOccasion: function () {
         console.log('Gift for occasion modal window opened');
         document.querySelector('[data-role=modal]#add-gift-occ').style.display = 'block';
@@ -234,7 +280,7 @@ var tonk0006_giftr = {
         var inputs = document.querySelectorAll('#new-idea');
         var input = inputs[1];
         input.value = '';
-//        input.focus();
+        //        input.focus();
         input.addEventListener('keypress', function (ev) {
             ev.stopImmediatePropagation();
             if (ev.keyCode === 13) {
@@ -244,29 +290,50 @@ var tonk0006_giftr = {
             }
         });
     },
-    
+
     savePerson: function () {
         var ul = document.querySelectorAll('[data-role="listview"]');
         var li = document.createElement('li');
         var text = document.querySelector('#new-per').value;
         li.innerHTML = text;
-//        li.setAttribute('data-ref', text);
+        //        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
         if (text)
             ul[0].appendChild(li);
-        tonk0006_giftr.cancelModal();
+        
+        tonk0006_giftr.db.transaction(function (trans) {
+            trans.executeSql("INSERT INTO people(person_name) VALUES('" + text + "')", [],
+                function (tx, rs) {
+                    console.log(text + " " + "has been added to the database.");
+                    text = null;
+                    tonk0006_giftr.cancelModal();
+                },
+                function (tx, err) {
+                    console.error(err.message);
+                });
+        });
     },
-    
+
     saveOccasion: function () {
         var ul = document.querySelectorAll('[data-role="listview"]');
         var li = document.createElement('li');
         var text = document.querySelector('#new-occ').value;
         li.innerHTML = text;
-//        li.setAttribute('data-ref', text);
+        //        li.setAttribute('data-ref', text);
         li.setAttribute('id', text);
-        if(text)
+        if (text)
             ul[1].appendChild(li);
-        tonk0006_giftr.cancelModal();
+        
+        tonk0006_giftr.db.transaction(function (trans) {
+            trans.executeSql("INSERT INTO occasions(occ_name) VALUES('" + text + "')", [],
+                function (tx, rs) {
+                    console.log(text + " " + "has been added to the database.");
+                    tonk0006_giftr.cancelModal();
+                },
+                function (tx, err) {
+                    console.error(err.message);
+                });
+        });
     },
     // NEEDS MORE WORK
     saveGiftForPerson: function () {
@@ -277,7 +344,7 @@ var tonk0006_giftr = {
         //var textpair = (text + ' for ' + occasionName);
         li.innerHTML = text;
         li.setAttribute('id', text);
-        if(text)
+        if (text)
             ul[2].appendChild(li);
         tonk0006_giftr.cancelModal();
     },
@@ -290,11 +357,11 @@ var tonk0006_giftr = {
         //var textpair = (text + ' for ' + personName);
         li.innerHTML = text;
         li.setAttribute('id', text);
-        if(text)
+        if (text)
             ul[3].appendChild(li);
-        tonk0006_giftr.cancelModal(); 
+        tonk0006_giftr.cancelModal();
     },
-    
+
     deleteListItem: function (ev) {
         console.log('Double-tap event occured');
         var item = ev.target.innerHTML;
@@ -302,7 +369,7 @@ var tonk0006_giftr = {
         li.parentNode.removeChild(li);
         console.log('Item ' + item + ' was deleted from the screen');
     },
-    
+
     cancelModal: function () {
         var modals = document.querySelectorAll('[data-role=modal]');
         modals[0].style.display = 'none';
