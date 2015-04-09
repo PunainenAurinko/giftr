@@ -52,6 +52,8 @@ var tonk0006_giftr = {
         var list = document.querySelectorAll('[data-role="listview"]');
         var hm1 = new Hammer.Manager(list[0]);
         var hm2 = new Hammer.Manager(list[1]);
+        var hm3 = new Hammer.Manager(list[2]);
+        var hm4 = new Hammer.Manager(list[3]);
 
         var singleTap1 = new Hammer.Tap({
             event: 'singletap'
@@ -75,17 +77,47 @@ var tonk0006_giftr = {
             posThreshold: 40
         });
         
+            var singleTap3 = new Hammer.Tap({
+            event: 'singletap'
+        });
+        
+        var doubleTap3 = new Hammer.Tap({
+            event: 'doubletap',
+            taps: 2,
+            threshold: 10,
+            posThreshold: 40
+        });
+        
+            var singleTap4 = new Hammer.Tap({
+            event: 'singletap'
+        });
+        
+        var doubleTap4 = new Hammer.Tap({
+            event: 'doubletap',
+            taps: 2,
+            threshold: 10,
+            posThreshold: 40
+        });
+        
         hm1.add([doubleTap1, singleTap1]);
         hm2.add([doubleTap2, singleTap2]);
+        hm3.add([doubleTap3, singleTap3]);
+        hm4.add([doubleTap4, singleTap4]);
         doubleTap1.recognizeWith(singleTap1);
         doubleTap2.recognizeWith(singleTap2);
+        doubleTap3.recognizeWith(singleTap3);
+        doubleTap4.recognizeWith(singleTap4);
         doubleTap1.requireFailure(singleTap1);
         doubleTap2.requireFailure(singleTap2);
+        doubleTap3.requireFailure(singleTap3);
+        doubleTap4.requireFailure(singleTap4);
         
         hm1.on('singletap', tonk0006_giftr.showGiftsForPerson);
         hm2.on('singletap', tonk0006_giftr.showGiftsForOccasion);
         hm1.on('doubletap', tonk0006_giftr.deleteListItem);
         hm2.on('doubletap', tonk0006_giftr.deleteListItem);
+        hm3.on('doubletap', tonk0006_giftr.deleteListItem);
+        hm4.on('doubletap', tonk0006_giftr.deleteListItem);
         
         var pages = document.querySelectorAll('[data-role=page]');
         
@@ -179,6 +211,18 @@ var tonk0006_giftr = {
         console.log(nameArray);
         var headings = document.querySelectorAll('h3');
         headings[2].innerHTML = 'New gift for <strong>' + personName + '</strong>.';
+        var inputs = document.querySelectorAll('#new-idea');
+        var input = inputs[0];
+        input.value = '';
+//        input.focus();
+        input.addEventListener('keypress', function (ev) {
+            ev.stopImmediatePropagation();
+            if (ev.keyCode === 13) {
+                ev.preventDefault();
+                tonk0006_giftr.saveGiftForPerson();
+                input.blur();
+            }
+        });
     },
     
     addGiftForOccasion: function () {
@@ -187,6 +231,18 @@ var tonk0006_giftr = {
         document.querySelector('[data-role=overlay]').style.display = 'block';
         var headings = document.querySelectorAll('h3');
         headings[3].innerHTML = 'New gift for <strong>' + occasionName + '</strong>.';
+        var inputs = document.querySelectorAll('#new-idea');
+        var input = inputs[1];
+        input.value = '';
+//        input.focus();
+        input.addEventListener('keypress', function (ev) {
+            ev.stopImmediatePropagation();
+            if (ev.keyCode === 13) {
+                ev.preventDefault();
+                tonk0006_giftr.saveGiftForOccasion();
+                input.blur();
+            }
+        });
     },
     
     savePerson: function () {
@@ -212,13 +268,31 @@ var tonk0006_giftr = {
             ul[1].appendChild(li);
         tonk0006_giftr.cancelModal();
     },
-    
+    // NEEDS MORE WORK
     saveGiftForPerson: function () {
-        
+        var ul = document.querySelectorAll('[data-role="listview"]');
+        var li = document.createElement('li');
+        var ideas = document.querySelectorAll('#new-idea');
+        var text = ideas[0].value;
+        //var textpair = (text + ' for ' + occasionName);
+        li.innerHTML = text;
+        li.setAttribute('id', text);
+        if(text)
+            ul[2].appendChild(li);
+        tonk0006_giftr.cancelModal();
     },
-    
+    // NEEDS MORE WORK
     saveGiftForOccasion: function () {
-        
+        var ul = document.querySelectorAll('[data-role="listview"]');
+        var li = document.createElement('li');
+        var ideas = document.querySelectorAll('#new-idea');
+        var text = ideas[1].value;
+        //var textpair = (text + ' for ' + personName);
+        li.innerHTML = text;
+        li.setAttribute('id', text);
+        if(text)
+            ul[3].appendChild(li);
+        tonk0006_giftr.cancelModal(); 
     },
     
     deleteListItem: function (ev) {
