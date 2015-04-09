@@ -4,6 +4,7 @@ var tonk0006_giftr = {
     loadRequirements: 0,
     personName: '',
     occasionName: '',
+    person_name: '',
     init: function () {
         document.addEventListener('deviceready', this.onDeviceReady);
         document.addEventListener('DOMContentLoaded', this.onDomReady);
@@ -346,9 +347,22 @@ var tonk0006_giftr = {
         li.setAttribute('id', text);
         if (text)
             ul[2].appendChild(li);
-        tonk0006_giftr.cancelModal();
+        
+        var gift_idea = text;
+        var occ_list = document.querySelector("#add-gift-per #list-per");
+        var occ_id = occ_list.options[occ_list.selectedIndex].value;
+        tonk0006_giftr.db.transaction(function (trans) {
+			trans.executeSql("INSERT INTO gifts(person_id, occ_id, gift_idea, purchased) VALUES('" + person_name + "', '" + occ_id + "', '" + gift_idea + "', 0)", [],
+				function (tx, rs) {
+                    console.log("Gift + " + gift_idea + " has been added to the database.");
+					tonk0006_giftr.cancelModal();
+				},
+				function (tx, err) {
+					console.error(err.message);
+				});
+		});
     },
-    // NEEDS MORE WORK
+    // NEEDS MORE WORK - JUST STARTED IT
     saveGiftForOccasion: function () {
         var ul = document.querySelectorAll('[data-role="listview"]');
         var li = document.createElement('li');
@@ -360,6 +374,11 @@ var tonk0006_giftr = {
         if (text)
             ul[3].appendChild(li);
         tonk0006_giftr.cancelModal();
+        
+        var gift_idea = text;
+        var occ_list = document.querySelector("#add-gift-per #list-occ");
+        var occ_id = occ_list.options[occ_list.selectedIndex].value;
+        var person_name = occ_list.options[occ_list.selectedIndex].innerHTML;
     },
 
     deleteListItem: function (ev) {

@@ -5273,3 +5273,106 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-09 08:48:47.694 Giftr[5231:177435] BD has been added to the database.
 2015-04-09 08:48:49.063 Giftr[5231:177435] Displayed gift ideas page for BD
 2015-04-09 08:48:50.505 Giftr[5231:177435] Gift for occasion modal window opened
+2015-04-09 11:54:05.156 Giftr[1226:139222] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/74342AA6-BDFD-45D2-A886-0B2E426BA995/Library/Cookies/Cookies.binarycookies
+2015-04-09 11:54:05.258 Giftr[1226:139222] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 11:54:05.258 Giftr[1226:139222] Multi-tasking -> Device: YES, App: YES
+2015-04-09 11:54:05.259 Giftr[1226:139222] Unlimited access to network resources
+2015-04-09 11:54:05.262 Giftr[1226:139222] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 11:54:05.581 Giftr[1226:139222] [CDVTimer][splashscreen] 165.134013ms
+2015-04-09 11:54:05.582 Giftr[1226:139222] [CDVTimer][TotalPluginStartup] 165.318012ms
+2015-04-09 11:54:05.690 Giftr[1226:139222] Resetting plugins due to page load.
+2015-04-09 11:54:05.734 Giftr[1226:139222] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/49E37DC4-D661-4780-A8B5-8C3FCB23D207/Giftr.app/www/index.html
+2015-04-09 11:54:05.779 Giftr[1226:139222] Connecting to database...
+2015-04-09 11:54:05.779 Giftr[1226:139222] Successfully connected to database!
+2015-04-09 11:54:31.812 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:54:41.112 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:02.182 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:12.894 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:20.193 Giftr[1226:139222] Jack has been added to the database.
+2015-04-09 11:55:22.435 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:24.211 Giftr[1226:139222] John has been added to the database.
+2015-04-09 11:55:26.001 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:27.630 Giftr[1226:139222] Joan has been added to the database.
+2015-04-09 11:55:28.882 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:30.957 Giftr[1226:139222] Johanna has been added to the database.
+2015-04-09 11:55:32.841 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:34.359 Giftr[1226:139222] Jerry has been added to the database.
+2015-04-09 11:55:35.666 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:38.161 Giftr[1226:139222] Jeremy has been added to the database.
+2015-04-09 11:55:48.604 Giftr[1226:139222] Person modal window opened
+2015-04-09 11:55:49.853 Giftr[1226:139222] Jane has been added to the database.
+2015-04-09 11:55:56.962 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:55:59.414 Giftr[1226:139222] Helloween has been added to the database.
+2015-04-09 11:56:00.427 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:56:04.140 Giftr[1226:139222] Hannukkah has been added to the database.
+2015-04-09 11:56:05.044 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:56:07.069 Giftr[1226:139222] Birthday has been added to the database.
+2015-04-09 11:56:08.039 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:56:10.189 Giftr[1226:139222] Canada Day has been added to the database.
+2015-04-09 11:56:11.015 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:56:13.706 Giftr[1226:139222] ERROR: could not prepare statement (1 near "s": syntax error)
+2015-04-09 11:56:18.913 Giftr[1226:139222] ERROR: could not prepare statement (1 near "s": syntax error)
+2015-04-09 11:56:20.139 Giftr[1226:139222] ERROR: could not prepare statement (1 near "s": syntax error)
+2015-04-09 11:56:24.710 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:56:29.572 Giftr[1226:139222] ERROR: could not prepare statement (1 near "s": syntax error)
+2015-04-09 11:56:59.957 Giftr[1226:139222] Displayed gift ideas page for Father's Day
+2015-04-09 11:57:07.000 Giftr[1226:139222] Double-tap event occured
+2015-04-09 11:57:07.001 Giftr[1226:139222] Item Mother's Day was deleted from the screen
+2015-04-09 11:57:07.979 Giftr[1226:139222] Double-tap event occured
+2015-04-09 11:57:07.979 Giftr[1226:139222] Item Mother's Day was deleted from the screen
+2015-04-09 11:57:09.101 Giftr[1226:139222] Double-tap event occured
+2015-04-09 11:57:09.101 Giftr[1226:139222] Item Mother's Day was deleted from the screen
+2015-04-09 11:57:10.230 Giftr[1226:139222] Double-tap event occured
+2015-04-09 11:57:10.230 Giftr[1226:139222] Item Father's Day was deleted from the screen
+2015-04-09 11:57:11.476 Giftr[1226:139222] Occasion modal window opened
+2015-04-09 11:57:15.727 Giftr[1226:139222] Christmas has been added to the database.
+2015-04-09 11:57:54.026 Giftr[1226:139222] Displayed gift ideas page for Jack
+2015-04-09 11:57:55.365 Giftr[1226:139222] Gift for person modal window opened
+2015-04-09 11:57:55.365 Giftr[1226:139222] {"0":{},"1":{},"2":{},"3":{},"4":{},"5":{},"6":{},"7":{},"8":{},"9":{},"10":{},"11":{},"length":12}
+2015-04-09 12:26:35.733 Giftr[3637:238928] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Data/Application/03D5E9E9-7E6B-4BDD-80EA-DD94659C8E2A/Library/Cookies/Cookies.binarycookies
+2015-04-09 12:26:35.950 Giftr[3637:238928] Apache Cordova native platform version 3.8.0 is starting.
+2015-04-09 12:26:35.951 Giftr[3637:238928] Multi-tasking -> Device: YES, App: YES
+2015-04-09 12:26:35.958 Giftr[3637:238928] Unlimited access to network resources
+2015-04-09 12:26:35.967 Giftr[3637:238928] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-09 12:26:36.436 Giftr[3637:238928] [CDVTimer][splashscreen] 183.072984ms
+2015-04-09 12:26:36.436 Giftr[3637:238928] [CDVTimer][TotalPluginStartup] 183.211982ms
+2015-04-09 12:26:36.585 Giftr[3637:238928] Resetting plugins due to page load.
+2015-04-09 12:26:36.711 Giftr[3637:238928] Finished load of: file:///Users/VladimirTonkonogov/Library/Developer/CoreSimulator/Devices/6927E358-8EE8-40F1-988F-766279B08C08/data/Containers/Bundle/Application/E8467493-7EA7-4EB5-9E4F-48F8C5BEA754/Giftr.app/www/index.html
+2015-04-09 12:26:36.818 Giftr[3637:238928] Connecting to database...
+2015-04-09 12:26:36.818 Giftr[3637:238928] Successfully connected to database!
+2015-04-09 12:26:40.906 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:26:43.965 Giftr[3637:238928] John has been added to the database.
+2015-04-09 12:26:45.348 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:26:49.490 Giftr[3637:238928] Jsck has been added to the database.
+2015-04-09 12:26:51.395 Giftr[3637:238928] Double-tap event occured
+2015-04-09 12:26:51.395 Giftr[3637:238928] Item Jsck was deleted from the screen
+2015-04-09 12:26:51.396 Giftr[3637:238928] Item Jsck has been deleted from the database.
+2015-04-09 12:26:52.789 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:26:55.760 Giftr[3637:238928] Jack has been added to the database.
+2015-04-09 12:26:56.927 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:26:58.945 Giftr[3637:238928] Joan has been added to the database.
+2015-04-09 12:26:59.859 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:27:00.993 Giftr[3637:238928] Jane has been added to the database.
+2015-04-09 12:27:02.019 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:27:05.126 Giftr[3637:238928] Jeremy has been added to the database.
+2015-04-09 12:27:06.028 Giftr[3637:238928] Person modal window opened
+2015-04-09 12:27:08.259 Giftr[3637:238928] Johanna has been added to the database.
+2015-04-09 12:27:45.382 Giftr[3637:238928] Occasion modal window opened
+2015-04-09 12:27:50.508 Giftr[3637:238928] Hannukkah has been added to the database.
+2015-04-09 12:27:52.085 Giftr[3637:238928] Occasion modal window opened
+2015-04-09 12:27:55.555 Giftr[3637:238928] Displayed gift ideas page for Hannukkah
+2015-04-09 12:27:57.643 Giftr[3637:238928] Gift for occasion modal window opened
